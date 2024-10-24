@@ -1,0 +1,55 @@
+//COMPUTER QUESTIONS GAME
+print("Welcome to this computer quiz game")
+
+
+playing=input("Do you wanna play? ")
+
+if playing.lower()!='yes' :
+
+    print("Bravo! let's play dude!")
+
+    quit()
+
+score=0
+
+answer=input('What does html stands for? ')
+
+if answer.lower()=="hyper text markup language":
+
+    print("Correct! dude")
+
+    score+=1
+
+else:
+
+    print("Incorrect dude! Try again failure!")
+
+answer=input('What does Css stands for? ')
+
+if answer.lower()=="cascading style sheet":
+
+    print("Correct! dude")
+
+    score += 1
+
+else:
+
+    print("Incorrect dude! Try again failure!")
+
+answer = input('What does wan stands for? ')
+
+if answer.lower() == "wide area network":
+
+        print("Correct! dude")
+
+        score += 1
+
+else:
+
+        print("Incorrect dude! Try again failure!")
+
+print("You got " + str(score)+' questions correct')
+
+print("You got " + str((score /3)*100 )+'%.')
+
+print("<<END>>")
